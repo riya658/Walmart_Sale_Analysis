@@ -36,11 +36,11 @@ Here's the information converted into a table format:
 
 # Analysis
 1. Product Analysis
-   Conduct an analysis of the data to understand the different product lines, identify the product lines performing best, and determine the product lines that need improvement.
+               Conduct an analysis of the data to understand the different product lines, identify the product lines performing best, and determine the product lines that need                           improvement.
 3. Sales Analysis   
-   This analysis aims to answer the question of sales trends for each product. The results can help us measure the effectiveness of each sales strategy the business applies and determine    what modifications are needed to increase sales.
+               This analysis aims to answer the question of sales trends for each product. The results can help us measure the effectiveness of each sales strategy the business applies                  and determine what modifications are needed to increase sales.
 4. Customer Analysis
-   This analysis aims to uncover the different customer segments, purchase trends, and the profitability of each customer segment.
+               This analysis aims to uncover the different customer segments, purchase trends, and the profitability of each customer segment.
 
 # Generic Questions
 - How many unique cities are in the data?
