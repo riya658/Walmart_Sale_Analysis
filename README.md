@@ -5,9 +5,9 @@ In this recruiting competition, job-seekers are provided with historical sales d
 
 Source: [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
 
-#Purpose of the Project
+# Purpose of the Project
 
 The primary aim of this project is to gain insight into Walmart's sales data to understand the various factors that affect sales across different branches.
 
-#Data
+# Data
 The dataset contains sales transactions from three different branches of Walmart, located in Mandalay, Yangon, and Naypyitaw. The data consists of 17 columns and 1,000 rows.
