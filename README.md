@@ -37,9 +37,9 @@ Here's the information converted into a table format:
 # Analysis
 1. Product Analysis
    Conduct an analysis of the data to understand the different product lines, identify the product lines performing best, and determine the product lines that need improvement.
-2. Sales Analysis   
+3. Sales Analysis   
    This analysis aims to answer the question of sales trends for each product. The results can help us measure the effectiveness of each sales strategy the business applies and determine    what modifications are needed to increase sales.
-3. Customer Analysis
+4. Customer Analysis
    This analysis aims to uncover the different customer segments, purchase trends, and the profitability of each customer segment.
 
 # Generic Questions
@@ -78,27 +78,3 @@ Here's the information converted into a table format:
 - Which day of the week has the best average ratings?
 - Which day of the week has the best average ratings per branch?
 
-# CREATE DATABASE from below code:
--- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
-
--- Create table
-CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    branch VARCHAR(5) NOT NULL,
-    city VARCHAR(30) NOT NULL,
-    customer_type VARCHAR(30) NOT NULL,
-    gender VARCHAR(30) NOT NULL,
-    product_line VARCHAR(100) NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    quantity INT NOT NULL,
-    tax_pct FLOAT(6,4) NOT NULL,
-    total DECIMAL(12, 4) NOT NULL,
-    date DATETIME NOT NULL,
-    time TIME NOT NULL,
-    payment VARCHAR(15) NOT NULL,
-    cogs DECIMAL(10,2) NOT NULL,
-    gross_margin_pct FLOAT(11,9),
-    gross_income DECIMAL(12, 4),
-    rating FLOAT(2, 1)
-);
