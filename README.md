@@ -40,6 +40,46 @@ Here's the information converted into a table format:
                        applies and determine what modifications are needed to increase sales.
 3. Customer Analysis:  This analysis aims to uncover the different customer segments, purchase trends, and the profitability of each customer segment.
 
+# Approach
+
+1. Data Wrangling:
+- Inspect data to detect NULL values and missing values (though you've mentioned there are none).
+- Replace missing or NULL values if any are detected.
+
+2. Building a Database:
+- Create tables to store the data.
+
+3. Feature Engineering:
+- Generate new columns from existing ones to provide additional insights.
+
+4. Exploratory Data Analysis (EDA):
+- Conduct analysis to answer project questions and objectives.
+
+# Implementation Steps:
+
+1. Data Wrangling:
+   - Inspect data for NULL or missing values.
+   - If any NULL or missing values are found, replace them using appropriate methods.
+
+2. Build a Database:
+   - Create tables to store the data. You've mentioned the structure with NOT NULL constraints for each field.
+
+3. Insert Data:
+   - Insert the available data into the created tables.
+
+4. Feature Engineering:
+   - Add new columns based on the provided requirements:
+     - `time_of_day`: Categorize sales into Morning, Afternoon, or Evening.
+     - `day_name`: Extract the day of the week (Mon, Tue, etc.) from transaction dates.
+     - `month_name`: Extract the month of the year (Jan, Feb, etc.) from transaction dates.
+
+5. Exploratory Data Analysis (EDA):
+   - Perform analysis to address the project's questions and objectives using SQL queries or any other analytical methods.
+   - Answer questions such as:
+     - Which part of the day sees the most sales?
+     - Which day of the week is each branch busiest?
+     - Which month of the year has the highest sales and profit?
+
 # Generic Questions
 - How many unique cities are in the data?
 - In which city is each branch located?
